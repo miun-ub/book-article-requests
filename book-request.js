@@ -1,3 +1,8 @@
+/* ====================================================================================
+Script som fyller i formuläret på https://biblioteket.miun.se/bestall-en-bok
+med metadata från beställningslänkar från LIBRIS och SFX-fönster 
+==================================================================================== */
+
 var url = document.referrer;
 
 // ====================== Länkar från LIBRIS ====================== 
